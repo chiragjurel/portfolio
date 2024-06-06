@@ -1,0 +1,111 @@
+.candc{
+    min-height: calc(100vh-4rem);
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.clients-head{
+    font-size: xxx-large;
+    margin-bottom: 2rem;
+}
+
+.clients-desc{
+    max-width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.clients-pics{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.clients-pic{
+    height: 6rem;
+    width: 14rem;
+    margin: 0.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-margin: 5rem;
+    }
+
+.contact-head{
+    font-size: xxx-large;
+    margin-bottom: 2rem;
+}
+
+.text-area{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin: 1rem;
+    width: 40rem;
+    height: 4rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.submitbtn{
+    margin: 0.5rem;
+    background-color: white;
+    border: none;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+
+.submitbtn:hover{
+    background-color: yellow;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.links-img{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+@media (max-width:480px){
+    .candc{
+        right: -8vh;
+    }
+    .clients-pics{
+        right: -10vh;
+    }
+}
+@media (max-width:641px){
+
+    .text-area{
+        height: 10rem;
+        width: 10rem;
+    }
+}
